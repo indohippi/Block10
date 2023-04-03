@@ -1,0 +1,128 @@
+main {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.firstrow {
+    display: flex;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.firstrow > div {
+    background-color: rgb(54, 134, 165);
+    flex: 1;
+}
+
+.firstrow > div:nth-child(2) {
+    margin: 0 15px 0 15px;
+}
+
+.secondrow {
+    height: 400px;
+    background-color: rgb(50, 159, 184);
+    margin-bottom: 10px;
+}
+
+.thirdrow {
+    height: 20px;
+    background-color: rgb(77, 110, 10);
+}
+
+.circ {
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    /* position: fixed; */
+}
+
+.one {
+    /* width: 150px; */
+    width: 10vw;
+    height: 10vw;
+    /* height: 150px; */
+    background-color: rgb(228, 228, 75);
+    left: 15%;
+    top: 3%;
+}
+
+.two {
+    left: 33%;
+    top: 10%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(205, 205, 77);
+}
+
+.three {
+    left: 35%;
+    top: 30%;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(184, 77, 95);
+}
+
+.four {
+    left: 8%;
+    top: 4%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(186, 73, 92);
+}
+
+.five {
+    left: 12%;
+    top: 35%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(204, 96, 114);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.t-one {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellowgreen;
+    left: 65%;
+    top: 58%;
+    z-index: 3;
+}
+
+.t-two {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid green;
+    left: 40%;
+    top: 30%;
+    z-index: 1;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.formInput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.submitButton {
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    align-self: center;
+    background-color: skyblue;
+}
